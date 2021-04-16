@@ -1,2 +1,2 @@
 # Computer-science
-activites and exercises for my college
+activites and exercices for my college

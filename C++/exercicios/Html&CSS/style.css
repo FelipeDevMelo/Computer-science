@@ -1,0 +1,102 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    background-image: url("images/stars.png");
+}
+#nome{
+    text-align: center;
+    font-size: 40pt;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px #aa9a05;
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 12, 113);
+}
+
+
+.infos{
+    background-color: rgb(241, 0, 0);
+    margin-right:70%;
+    margin-top: 8%;
+    font-size: 16pt;
+    padding: 1%;
+    padding-bottom: 20%;
+   border-radius: 4%;
+    color: rgb(255, 251, 246);
+}
+
+.content{
+    
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    font-size: 16pt;
+    color: blanchedalmond;
+}
+
+.titulos{
+    color:rgb(102, 50, 170); 
+    border-style:dotted;
+    border-bottom-color: blue;
+    border-top-color: crimson;
+    border-radius: 3%;
+    border-left-color: darkgreen;
+    border-right-color: yellow;
+    
+}
+
+#pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid rgb(255, 251, 0);
+    border-left: 60px solid rgb(255, 251, 0);
+    border-bottom: 60px solid rgb(255, 251, 0);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    position: absolute;
+    right: 75%;
+    top: 3%;
+  }
+
+  #space-invader {
+    box-shadow: 0 0 0 1em rgb(0, 255, 42),
+    0 1em 0 1em rgb(0, 255, 42),
+    -2.5em 1.5em 0 .5em rgb(0, 255, 42),
+    2.5em 1.5em 0 .5em rgb(0, 255, 42),
+    -3em -3em 0 0 rgb(0, 255, 42),
+    3em -3em 0 0 rgb(0, 255, 42),
+    -2em -2em 0 0 rgb(0, 255, 42),
+    2em -2em 0 0 rgb(0, 255, 42),
+    -3em -1em 0 0 rgb(0, 255, 42),
+    -2em -1em 0 0 rgb(0, 255, 42),
+    2em -1em 0 0 rgb(0, 255, 42),
+    3em -1em 0 0 rgb(0, 255, 42),
+    -4em 0 0 0 rgb(0, 255, 42),
+    -3em 0 0 0 rgb(0, 255, 42),
+    3em 0 0 0 rgb(0, 255, 42),
+    4em 0 0 0 rgb(0, 255, 42),
+    -5em 1em 0 0 rgb(0, 255, 42),
+    -4em 1em 0 0 rgb(0, 255, 42),
+    4em 1em 0 0 rgb(0, 255, 42),
+    5em 1em 0 0 rgb(0, 255, 42),
+    -5em 2em 0 0 rgb(0, 255, 42),
+    5em 2em 0 0 rgb(0, 255, 42),
+    -5em 3em 0 0 rgb(0, 255, 42),
+    -3em 3em 0 0 rgb(0, 255, 42),
+    3em 3em 0 0 rgb(0, 255, 42),
+    5em 3em 0 0 rgb(0, 255, 42),
+    -2em 4em 0 0 rgb(0, 255, 42),
+    -1em 4em 0 0 rgb(0, 255, 42),
+    1em 4em 0 0 rgb(0, 255, 42),
+    2em 4em 0 0 rgb(0, 255, 42);
+    background: rgb(0, 255, 42);
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin: 50px 0 70px 65px;
+    position: absolute;
+    right: 15%;
+    top: 3%;
+  }

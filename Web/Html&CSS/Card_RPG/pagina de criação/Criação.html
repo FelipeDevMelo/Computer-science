@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,17 @@
   <title>Criar Personagem</title>
   <link rel="stylesheet" href="style2.css">
 </head>
-<body >
+
+<body>
   <div class="header">
     <h1>Mighty Blade</h1>
-   
+
   </div>
   <div id="ficha">
-    <form action="">
-      <input placeholder="nome do personagem"type="text" name="" id="PersonagemInput">
-      <label for="cars">escolha uma raça:</label>
-      <select name="" id="raçaInput">
+    <form action="ficha.php" method="get">
+      <input placeholder="nome do personagem" type="text" name="nomePersonagem" id="PersonagemInput">
+      <label for="">escolha uma raça:</label>
+      <select name="raca" id="raçaInput">
         <option value="Aesir">Aesir</option>
         <option value="Anão">Anão</option>
         <option value="Elfo">Elfo</option>
@@ -26,9 +28,9 @@
         <option value="Humano">Humano</option>
         <option value="Juban">Juban</option>
       </select>
-      <label for="cars">escolha uma classe:</label>
-      <select name="" id="classeInput">
-        
+      <label for="">escolha uma classe:</label>
+      <select name="classe" id="classeInput">
+
         <option value="Bardo">Bardo</option>
         <option value="Druida">Druida</option>
         <option value="Espadachim">Espadachim</option>
@@ -42,12 +44,13 @@
         <option value="xamã">xamã</option>
       </select>
 
-      <input onclick="Submit()" type="submit" value="Selecionar">
+      <input  type="submit" value="Selecionar">
     </form>
-   
+
   </div>
-      
+
   </div>
   <script src="script2.js"></script>
 </body>
+
 </html>
